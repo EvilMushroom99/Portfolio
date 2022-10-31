@@ -49,9 +49,13 @@ header nav{
 }
 
 .container{
-	display: flex;
-	flex-direction: row;
 	margin: 0px;
 	text-align: center;
 	align-items: center;
+}
+
+#UnityGame{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
