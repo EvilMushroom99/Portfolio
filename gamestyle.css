@@ -53,3 +53,12 @@ header nav{
 	text-align: center;
 	align-items: center;
 }
+
+.unityContainer{
+	width: auto;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+}
