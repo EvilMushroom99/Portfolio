@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+    <link rel="stylesheet" type="text/css" href="gamestyle.css">
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Poker Challenge</title>
+    <title>Poker Challenge</title>
     <script src="Build/UnityLoader.js"></script>
     <script>
       UnityLoader.instantiate("unityContainer", "Build/PokerWeb.json");
     </script>
   </head>
   <body>
+    <header>
+      <div class="container">
+        <img class="Logo" src="EvilMushroom.jpg">
+        <nav>
+          <a href="../../index.html#Games"> My Games </a>
+          <a href="../../index.html#Prototypes"> Prototypes </a>
+          <a href="../../index.html#Assets"> Assets </a>
+        </nav>
+      </div>
+    </header>
+
     <div id="unityContainer" style="width: 854px; height: 480px; margin: auto"></div>
   </body>
 </html>
