@@ -49,7 +49,9 @@ header nav{
 }
 
 .container{
-	margin: auto;
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
 	text-align: center;
 	align-items: center;
 }
