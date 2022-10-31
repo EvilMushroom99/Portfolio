@@ -32,7 +32,7 @@ button:hover{
 }
 
 header{
-	background-color: rgb(255, 238, 204);
+	background-color: #323337;
 }
 
 header .Logo{
@@ -50,11 +50,11 @@ header a{
 	font-weight: bold;
 	padding: 5px 12px;
 	margin: 0;
-	color: rgb(70, 66, 94);
+	color: #ffffff;
 }
 
 header a:hover{
-	color: rgb(255, 105, 115);
+	color: #f60046;
 }
 
 header .container{
@@ -92,13 +92,13 @@ header nav{
 }
 
 #Hero h1{
-	color: rgb(255, 238, 204);
+	color: #ffffff;
 	font-weight: bold;
 	font-size: 3m;
 }
 
 #Hero p{
-	color: rgb(255, 238, 204);
+	color: #ffffff;
 	font-weight: bold;
 }
 
@@ -117,7 +117,7 @@ header nav{
 	text-align: center;
 	flex-direction: column;
 	height: auto;
-	background-color: rgb(70, 66, 94);
+	background-color: #f60046;
 	align-items: center;
 }
 
@@ -125,12 +125,12 @@ header nav{
 	font-size: 2em;
 	padding: 0;
 	text-align: center;
-	color: rgb(255, 238, 204);
+	color: #ffffff;
 	font-weight: bold;
 }
 
 #Games h3{
-	color: rgb(255, 238, 204);
+	color: #ffffff;
 	font-weight: bold;
 }
 
@@ -154,6 +154,10 @@ header nav{
 	background-image: url("Imgs/BreadvationIcon.png");
 }
 
+#Games .GameButton:nth-child(4) Button{
+	background-image: url("Imgs/Galaxy.png");
+}
+
 #Prototypes{
 	display: flex;
 	align-items: center;
@@ -161,7 +165,7 @@ header nav{
 	text-align: center;
 	flex-direction: column;
 	height: auto;
-	background-color: #ff6973;
+	background-color: #323337;
 	align-items: center;
 }
 
@@ -169,12 +173,12 @@ header nav{
 	font-size: 2em;
 	padding: 0;
 	text-align: center;
-	color: #46425e;
+	color: #ffffff;
 	font-weight: bold;
 }
 
 #Prototypes h3{
-	color: #46425e;
+	color: #ffffff;
 	font-weight: bold;
 }
 
@@ -198,7 +202,7 @@ header nav{
 	text-align: center;
 	flex-direction: column;
 	height: auto;
-	background-color: #15788c;
+	background-color: #f60046;
 	align-items: center;
 }
 
@@ -206,12 +210,12 @@ header nav{
 	font-size: 2em;
 	padding: 0;
 	text-align: center;
-	color: #ff6973;
+	color: #ffffff;
 	font-weight: bold;
 }
 
 #Assets h3{
-	color: #ff6973;
+	color: #ffffff;
 	font-weight: bold;
 }
 
