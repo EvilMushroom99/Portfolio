@@ -53,11 +53,3 @@ header nav{
 	text-align: center;
 	align-items: center;
 }
-
-.unityContainer{
-	width: 854px; 
-	height: 480px; 
-	margin: 60px;
-	padding: 0px;
-	border: 0px;
-}
