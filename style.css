@@ -35,14 +35,11 @@ header{
 	background-color: #323337;
 }
 
-header .Logo{
-	margin: 0px;
-	padding: 5px 5px;
-}
-
 header img{
 	max-width: 51.2px;
 	border-radius: 10px;
+	margin: 0px;
+	padding: 0px 0px;
 }
 
 header a{
@@ -240,6 +237,23 @@ header nav{
 
 #Assets .GameButton:nth-child(4) Button{
 	background-image: url("Imgs/CardsPack.png");
+}
+
+footer{
+	background-color: #323337;
+}
+
+footer p{
+	color: #f60046;
+	font: sans-serif;
+	font-weight: bold;
+}
+
+footer .container{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
 }
 
 @media (min-width: 720px){
