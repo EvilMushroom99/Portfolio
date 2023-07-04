@@ -154,6 +154,10 @@ header nav{
 	background-image: url("Imgs/Galaxy.png");
 }
 
+#Games .GameButton:nth-child(5) Button{
+	background-image: url("Imgs/Mushi.png");
+}
+
 #Prototypes{
 	display: flex;
 	align-items: center;

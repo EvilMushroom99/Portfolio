@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <link rel="icon" href="EvilMushroom.icon">
+    <link rel="stylesheet" type="text/css" href="../../gamestyle.css">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Mushi Jump</title>
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <a href="../../index.html" target="_self"><img src="../../Imgs/EvilMushroom.jpg"></a>
+        <nav>
+          <a href="../../index.html#Games"> My Games </a>
+          <a href="../../index.html#Prototypes"> Prototypes </a>
+          <a href="../../index.html#Assets"> Assets </a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container"><h1>Mushi Jump</h1></div>
+
+    <section id="UnityGame">
+      <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
+      <script src="Build/Mushi Jump Web.loader.js"></script>
+      <script>
+        createUnityInstance(document.querySelector("#unity-canvas"), {
+          dataUrl: "Build/Mushi Jump Web.data.br",
+          frameworkUrl: "Build/Mushi Jump Web.framework.js.br",
+          codeUrl: "Build/Mushi Jump Web.wasm.br",
+          streamingAssetsUrl: "StreamingAssets",
+          companyName: "EvilMushroom",
+          productName: "Mushi Jump",
+          productVersion: "1.0",
+          // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+          // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+        });
+      </script>
+    </section>
+
+    <footer>    
+      <div class="container">
+        <a href="https://www.linkedin.com/in/valentin-gaudio-02270919b/" target="_blank"><img src="../../Imgs/LinkedInx4.png"></a>
+        <a href="https://www.instagram.com/argametina/" target="_blank"><img src="../../Imgs/Instagramx4.png"></a>
+        <a href="https://argametina.itch.io/" target="_blank"><img src="../../Imgs/Itchiox4.png"></a>
+        <a href="https://twitter.com/Argametina1" target="_blank"><img src="../../Imgs/Twitterx4.png"></a>
+      </div>
+      <div class="container">
+        <p>&copy;Valentín Nicolás Gaudio - EvilMushroom99 2023</p>
+      </div>
+    </footer>
+    
+  </body>
+</html>    
