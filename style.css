@@ -139,22 +139,18 @@ header nav{
 }
 
 #Games .GameButton:nth-child(1) Button{
-	background-image: url("Imgs/Mushi.png");
-}
-
-#Games .GameButton:nth-child(2) Button{
 	background-image: url("Imgs/LimoPortrait.jpg");
 }
 
-#Games .GameButton:nth-child(3) Button{
+#Games .GameButton:nth-child(2) Button{
 	background-image: url("Imgs/PokerGameScreenshot.png");
 }
 
-#Games .GameButton:nth-child(4) Button{
+#Games .GameButton:nth-child(3) Button{
 	background-image: url("Imgs/BreadvationIcon.png");
 }
 
-#Games .GameButton:nth-child(5) Button{
+#Games .GameButton:nth-child(4) Button{
 	background-image: url("Imgs/Galaxy.png");
 }
 
