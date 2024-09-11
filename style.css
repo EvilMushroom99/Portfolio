@@ -235,7 +235,7 @@ header nav{
 }
 
 #Assets .GameButton:nth-child(1) Button{
-	background-image: url("Imgs/PokerCards2.png");
+	background-image: url("Imgs/PokerCards2.PNG");
 }
 
 #Assets .GameButton:nth-child(2) Button{
@@ -247,7 +247,7 @@ header nav{
 }
 
 #Assets .GameButton:nth-child(4) Button{
-	background-image: url("Imgs/MushiAsset.png");
+	background-image: url("Imgs/MushiAsset.PNG");
 }
 
 footer{
